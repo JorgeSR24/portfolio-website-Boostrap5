@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/font-awesome.css" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/lightbox.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Brad Traversy | Web Developer</title>
+</head>
+
+<body>
+  <header class="d-flex flex-column justify-content-center align-items-center vh-100 background-stars">
+    <p class="h4 text-uppercase text-white mt-5">Hello World</p>
+    <h1 class="h1 fw-bold text-white espaciado-letras text-center" id="typing-text"></h1>
+    <h2 class="h4 mt-2 text-white text-center role">FullStack web Developer | Online Educator</h2>
+
+    <a class="btn btn-outline-primary p-3 d-flex align-items-center gap-2 mt-5 btn-borde-grueso" href="#about">
+      <i class="fa-solid fa-angle-down fa-lg" style="color: rgb(255, 255, 255);"></i>
+      More About Me
+    </a>
+
+    <div class="d-flex flex-column mt-auto pb-5">
+      <nav>
+        <a href="#">
+          <i class="fa-brands fa-square-x-twitter fa-2x" style="color: rgb(255, 255, 255);"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-square-instagram fa-2x" style="color: rgb(255, 255, 255);"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-square-pinterest fa-2x" style="color: rgb(255, 255, 255);"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-youtube fa-2x" style="color: rgb(255, 255, 255);"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-square-github fa-2x" style="color: rgb(255, 255, 255);"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-tiktok fa-2x" style="color: rgb(255, 255, 255);"></i>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container-xl" id="about">
+      <h2 class="mt-3 color-resaltado fw-bold text-uppercase text-center">About me</h2>
+      <hr class="w-25 hr-centrado">
+      <h3 class="mt-3 mb-3 text-center">Let me instroduce myself</h3>
+
+      <div class="row mt-2">
+        <div class="col-md-4 text-center mb-2">
+          <img class="rounded-circle img-brand" src="./images/brad.jpg" alt="">
+        </div>
+
+        <div class="col-md-7 lh-lg p-2">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi modi iste blanditiis, suscipit ab, quidem
+            ratione perspiciatis
+            optio, ea aliquam aperiam vel mollitia ex perferendis hic nobis cupiditate laboriosam rerum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id molestias dolores facere aperiam voluptatibus
+            reprehenderit,
+            neque eaque sequi sit reiciendis debitis! Suscipit omnis unde natus laborum facere. Nobis, blanditiis odio.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white mt-5 p-4">
+      <div class="row justify-content-center">
+        <div class="col-md-5">
+          <h2 class="fw-bold">PROFILE</h2>
+          <p>Here is some more info about myself to help you get yo know me better</p>
+
+          <div class="d-flex flex-column flex-md-row p-4 gap-4">
+            <div class="list-group d-grid gap-2 border-0">
+              <label class="list-group-item rounded-3 py-3" for="listGroupCheckableRadios1">
+                <i class="fa-solid fa-user" style="color: rgb(186, 65, 182);"></i> Full Name
+                <span class="d-block small opacity-50">Jorge Sánchez Ruano</span> </label>
+
+              <label class="list-group-item rounded-3 py-3" for="listGroupCheckableRadios2">
+                <i class="fa-solid fa-envelope" style="color: rgb(186, 65, 182);"></i> Email
+                <span class="d-block small opacity-50">sanchezruanojorge@gmail.com</span> </label>
+              <label class="list-group-item rounded-3 py-3" for="listGroupCheckableRadios3">
+                <i class="fa-solid fa-building" style="color: rgb(186, 65, 182);"></i> Current Position
+                <span class="d-block small opacity-50">And we end with another snippet of text</span> </label>
+              <label class="list-group-item rounded-3 py-3" for="listGroupCheckableRadios4">
+                <i class="fa-solid fa-house" style="color: rgb(186, 65, 182);"></i>
+                Website
+                <span class="d-block small opacity-50">This option is disabled</span> </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5 d-flex flex-column gap-3 p-3">
+          <h2 class="fw-bold">SKILLS</h2>
+          <p>Here is a list of my skills with these dumb percentages that dont mean anything ;)</p>
+
+          <div class="d-flex align-items-center gap-3">
+            <i class="fa-solid fa-check" style="color: rgb(16, 15, 15);"></i>
+            <label>HTML 5</label>
+          </div>
+
+          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="100" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar text-white text-bg-danger" style="width: 100%">100%</div>
+          </div>
+
+          <div class="d-flex align-items-center gap-3 mt-2">
+            <i class="fa-solid fa-check" style="color: rgb(16, 15, 15);"></i>
+            <label>CSS</label>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="90" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar text-white text-bg-danger" style="width: 90%">90%</div>
+          </div>
+
+          <div class="d-flex align-items-center gap-3 mt-2">
+            <i class="fa-solid fa-check" style="color: rgb(16, 15, 15);"></i>
+            <label>JavaScript</label>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar text-bg-danger" style="width: 75%">75%</div>
+          </div>
+
+          <div class="d-flex align-items-center gap-3 mt-2">
+            <i class="fa-solid fa-check" style="color: rgb(16, 15, 15);"></i>
+            <label>Bootstrap 5</label>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar text-bg-danger" style="width: 100%">100%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex gap-3 justify-content-center mt-3 pb-4">
+        <a class="btn btn-outline-dark" href="#">Hire me Now</a>
+        <a class="btn btn-dark" href="#">Download CV</a>
+      </div>
+    </section>
+
+    <section class="container-xl mt-3">
+      <h2 class="mt-3 color-texto fw-bold text-uppercase text-center color-resaltado">Portfolio</h2>
+      <hr class="w-25 hr-centrado">
+      <h3 class="mt-3 mb-3 text-center">Check Out My Work</h3>
+      <p class="leads mt-3 text-center">Here is a small sample of some of my proyects</p>
+    </section>
+
+    <div class="portfolio-grid container mt-4  p-3">
+      <article class="project shadow-lg">
+        <a href="images/project1.jpg" data-lightbox="images" data-title="Cliboard Landing Page">
+          <img src="./images/project1.jpg" alt="Proyecto 1" style="width: 100%">
+        </a>
+      </article>
+      <article class="project shadow-lg">
+        <a href="images/project2.jpg" data-lightbox="images" data-title="Loop Studio Website">
+          <img src="./images/project2.jpg" alt="Proyecto 2" style="width: 100%">
+        </a>
+      </article>
+      <article class="project shadow-lg">
+        <a href="images/project3.jpg" data-lightbox="images" data-title="Shortly Website">
+          <img src="./images/project3.jpg" alt="Proyecto 3" style="width: 100%">
+        </a>
+      </article>
+      <article class="project shadow-lg">
+        <a href="images/project4.jpg" data-lightbox="images" data-title="Flyo Website">
+          <img src="./images/project4.jpg" alt="Proyecto 4" style="width: 100%">
+        </a>
+      </article>
+      <article class="project shadow-lg">
+        <a href="images/project5.jpg" data-lightbox="images" data-title="Bookmark Website">
+          <img src="./images/project5.jpg" alt="Proyecto 5" style="width: 100%">
+        </a>
+      </article>
+      <article class="project shadow-lg">
+        <a href="images/project6.jpg" data-lightbox="images" data-title="Grid Layout">
+          <img src="./images/project6.jpg" alt="Proyecto 6" style="width: 100%">
+        </a>
+      </article>
+    </div>
+
+    <section class="bg-services p-3">
+      <div class="container-xl">
+        <h2 class="mt-3 p-3 color-texto fw-bold text-uppercase text-center color-resaltado">Services</h2>
+        <hr class="w-25 hr-centrado text-white">
+        <h3 class="mt-3 mb-3 text-center text-white">What Can I Do For You?</h3>
+        <p class="mt-3 mb-3 text-center text-white">Here are some of the services that I offer when it comes to web
+          development and business</p>
+
+
+        <div class="row">
+          <article class="col-md-4">
+            <div class="d-flex flex-column align-items-center mt-3 gap-1">
+
+              <i class="fa-solid fa-globe fa-2x" style="color: rgb(186, 65, 182);"></i>
+              <h2 class="text-white text-center">Web Design</h2>
+              <hr class="w-50 hr-centrado text-white mt-0">
+              <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Iure blanditiis unde sunt mollitia
+                veniam esse cumque optio tempora perspiciatis vero aut culpa ea sequi rem
+                quibusdam hic, quasi repellat ex!</p>
+            </div>
+          </article>
+          <article class="col-md-4">
+            <div class="d-flex flex-column align-items-center mt-3 gap-1">
+
+              <i class="fa-solid fa-code fa-2x" style="color: rgb(186, 65, 182);"></i>
+              <h2 class="text-white text-center">Web Development</h2>
+              <hr class="w-50 hr-centrado text-white mt-0">
+              <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Iure blanditiis unde sunt mollitia
+                veniam esse cumque optio tempora perspiciatis vero aut culpa ea sequi rem
+                quibusdam hic, quasi repellat ex!</p>
+            </div>
+          </article>
+          <article class="col-md-4">
+            <div class="d-flex flex-column align-items-center mt-3 gap-1">
+
+              <i class="fa-solid fa-code fa-2x" style="color: rgb(186, 65, 182);"></i>
+              <h2 class="text-white text-center">Advertising & SEO</h2>
+              <hr class="w-50 hr-centrado text-white mt-0">
+              <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Iure blanditiis unde sunt mollitia
+                veniam esse cumque optio tempora perspiciatis vero aut culpa ea sequi rem
+                quibusdam hic, quasi repellat ex!</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="bg-estadisticas p-3">
+      <div class="container-xl">
+        <div class="row gap-5 mt-3 justify-content-center">
+          <article class="col-md-2 col-sm-4 d-flex flex-column gap-2 align-items-center">
+            <i class="fa-solid fa-users fa-2x" style="color: rgb(255, 255, 255);"></i>
+            <h2 class="text-white text-center fw-semibold">500
+              <i class="fa-solid fa-plus" style="color: rgb(253, 251, 253);"></i>
+            </h2>
+            <p class="text-white text-center text-uppercase fw-bold">clientes</p>
+          </article>
+          <article class="col-md-2 col-sm-4 d-flex flex-column gap-2 align-items-center">
+            <i class="fa-solid fa-diagram-project fa-2x" style="color: rgb(250, 251, 251);"></i>
+            <h2 class="text-white text-center fw-semibold">700
+              <i class="fa-solid fa-plus" style="color: rgb(253, 251, 253);"></i>
+            </h2>
+            <p class="text-white text-center text-uppercase fw-bold">projects</p>
+          </article>
+
+          <article class="col-md-2 col-sm-4 d-flex flex-column gap-2 align-items-center">
+            <i class="fa-solid fa-clock fa-2x" style="color: rgb(250, 251, 251);"></i>
+            <h2 class="text-white text-center fw-semibold">16
+              <i class="fa-solid fa-plus" style="color: rgb(253, 251, 253);"></i>
+            </h2>
+            <p class="text-white text-center text-uppercase fw-bold">years</p>
+          </article>
+
+          <article class="col-md-2 col-sm-4 d-flex flex-column gap-2 align-items-center">
+            <i class="fa-solid fa-book fa-2x" style="color: rgb(250, 251, 251);"></i>
+            <h2 class="text-white text-center fw-semibold">25
+              <i class="fa-solid fa-plus" style="color: rgb(253, 251, 253);"></i>
+            </h2>
+            <p class="text-white text-center text-uppercase fw-bold">publications</p>
+          </article>
+
+          <article class="col-md-2 col-sm-4 d-flex flex-column gap-2 align-items-center">
+            <i class="fa-solid fa-user-plus fa-2x" style="color: rgb(250, 251, 251);"></i>
+            <h2 class="text-white text-center fw-semibold">2.06<span class="fw-bold">M</span>
+            </h2>
+            <p class="text-white text-center text-uppercase fw-bold">suscribers</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  
+      <section class="py-5 bg-dark bg-gradient">
+          <div class="container">
+            <div class="text-center mb-5">
+              <h6 class="text-uppercase text-accent fw-bold">Contact</h6>
+              <h2 class="text-white">I'd love to hear from you.</h2>
+              <p class="text-light">
+                Si tienes alguna pregunta o quieres trabajar conmigo,
+                puedes contactar mediante este formulario.
+              </p>
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="col-lg-6">
+                <form>
+                  <div class="mb-4">
+                    <input type="text" class="form-control form-contact" placeholder="Name">
+                  </div>
+
+                  <div class="mb-4">
+                    <input type="email" class="form-control form-contact" placeholder="Email">
+                  </div>
+
+                  <div class="mb-4">
+                    <textarea rows="5" class="form-control form-contact" placeholder="Message"></textarea>
+                  </div>
+
+                  <button class="btn btn-accent px-5">
+                    Enviar
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+      </section>
+
+    </section>
+
+  </main>
+
+  <footer class="bg-dark p-2">
+    <div class="container-xl">
+      <div class="row justify-content-evenly">
+        <div class="col-md-4">
+          <small class="text-white">Copyright &copy 2026 | Design by Jorge Sánchez Ruano</small>
+        </div>
+
+        <div class="col-md-4 d-flex justify-content-end gap-1">
+          <a href="#" class="text-decoration-none">
+            <i class="fa-brands fa-facebook" style="color: rgb(250, 251, 251);"></i>
+          </a>
+          <a href="#" class="text-decoration-none">
+            <i class="fa-brands fa-linkedin" style="color: rgb(250, 251, 251);"></i>
+          </a>
+          <a href="#" class="text-decoration-none">
+            <i class="fa-brands fa-instagram" style="color: rgb(250, 251, 251);"></i>
+          </a>
+          <a href="#" class="text-decoration-none">
+            <i class="fa-brands fa-youtube" style="color: rgb(250, 251, 251);"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

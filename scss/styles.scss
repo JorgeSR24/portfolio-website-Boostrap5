@@ -1,0 +1,163 @@
+$color-terciary: rgb(182, 55, 66);
+.background-stars {
+    position: relative;
+    height: 100vh;
+    background-image: url("../images/intro-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.background-stars::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad */
+}
+
+.background-stars > * {
+    position: relative;
+    z-index: 1;
+}
+
+.espaciado-letras{
+    letter-spacing: 0.4rem;
+}
+
+.fa-solid .fa-angle-down:hover{
+    color: black;
+}
+
+.btn:hover{
+     .fa-angle-down::before{
+        color: black;
+    }
+}
+
+.color-resaltado{
+    color: $color-terciary;
+}
+
+.bg-color-resaltado{
+    background-color: $color-terciary;
+}
+
+.hr-centrado{
+    margin: 20px auto;
+}
+
+.img-brand{
+    width: 100%;
+    max-width: 200px;
+    object-fit: contain;
+    aspect-ratio: 205/206;
+}
+
+.btn-borde-grueso {
+    border-width: 2px;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(500px, 100%), 1fr)
+    );
+    gap: 20px;
+}
+
+.project:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+}
+
+header h2 {
+    font-family: 'lora-regular', serif;
+}
+
+@media (max-width: 767px){
+    .role {
+        font-size: 18px;
+    }
+}
+
+.bg-services{
+    position: relative;
+    height: fit-content;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.bg-services::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7); /* Ajusta la opacidad */
+}
+
+.bg-services > * {
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 767px){
+    .bg-services h3 {
+        font-size: 18px;
+    }
+}
+
+
+.bg-estadisticas{
+    background-color: $color-terciary;
+}
+
+.bg-estadisticas article {
+    padding-inline: 3rem;
+}
+
+.bg-estadisticas article:not(:last-child) {
+    box-shadow: 3px 0 0 rgb(28 19 19 / 10%);
+}
+
+//Formulario
+.text-accent{
+    color: #e84f8b;
+}
+
+.form-contact{
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid rgba(255,255,255,.4);
+    border-radius: 0;
+    color: white;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.form-contact:focus{
+    background: transparent;
+    color: white;
+    border-bottom-color: #e84f8b;
+    box-shadow: none;
+}
+
+.form-contact::placeholder{
+    color: rgba(255,255,255,.6);
+}
+
+.btn-accent{
+    background: #e84f8b;
+    color: white;
+    border: none;
+}
+
+.btn-accent:hover{
+    background: #d83d78;
+    color: white;
+}
+
+textarea.form-control {
+    max-height: 5ch;
+}
